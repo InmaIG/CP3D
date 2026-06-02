@@ -1,0 +1,31 @@
+# Heavy, regenerable outputs
+analysis/data/
+analysis/results/
+
+# Manuscript drafts and documents
+paper_draft/
+*.docx
+analysis/README_backup_old.md
+
+# Duplicated README (canonical copy lives at repo root)
+analysis/README.md
+
+# Large Excel plate-map inputs (add manually if needed for stage 1)
+Platemaps/
+
+# Stray working copy
+analysis/scripts/run_full_pipeline - Copy.py
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
