@@ -1,5 +1,8 @@
 # CP3D — Cell Painting 3D analysis pipeline
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21905942.svg)](https://doi.org/10.5281/zenodo.21905942)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 End-to-end pipeline for **3D Cell Painting** in HepG2 spheroids (Akura 384). It turns confocal Z-stacks into per-compound morphological profiles, calls robust hits, classifies their phenotype, and validates the result through several independent analyses (a paired 2D-vs-3D comparison, a self-supervised DINOv2 embedding, chemical-diversity / chemotype analysis, and MoA-recall benchmarks).
 
 > **Context** — WP3 of EU-OPENSCREEN. 735 bioactive compounds (active in the 2D HepG2 screen of Wolff et al., *iScience* 2025) tested at 10 µM; Cell Painting (4 channels: ER, AGP, Mito, DNA) on an Operetta CLS; maximum-intensity projection (MIP); CellProfiler features. The pipeline recovers **25 robust 3D hits** and resolves chemotype-specific bioactivity within the HSP90 inhibitor class.
