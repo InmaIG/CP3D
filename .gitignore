@@ -10,8 +10,8 @@ analysis/README_backup_old.md
 # Duplicated README (canonical copy lives at repo root)
 analysis/README.md
 
-# Large Excel plate-map inputs (add manually if needed for stage 1)
-Platemaps/
+# Large Excel plate-map inputs — deposited for paper reproducibility
+# Platemaps/
 
 # Stray working copy
 analysis/scripts/run_full_pipeline - Copy.py

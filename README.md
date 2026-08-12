@@ -39,6 +39,14 @@ CP3D/
 ```
 `data/` and `results/` are regenerable and not tracked in this repository.
 
+## Data and CellProfiler pipeline availability
+
+The two-stage CellProfiler workflow (projections and feature extraction) used in
+this study is deposited in [`cellprofiler/`](cellprofiler/). The processed
+per-compound data supporting the manuscript are in [`data_release/`](data_release/).
+The 384-well plate maps used for the three assay plates are in
+[`Platemaps/`](Platemaps/).
+
 ## Core pipeline (stages 1-9)
 
 | Stage | Script(s) | Function |
