@@ -74,7 +74,7 @@ The 384-well plate maps used for the three assay plates are in
 | `20` | HSP90 chemotype figure (ansamycins vs tanespimycin). |
 | `chemical_diversity_25hits.py` | Tanimoto + Murcko scaffolds of the 25 hits. |
 | `compare_hsp90_stk24.py` | HSP90 vs STK24 triplet comparison. |
-| `21` (+ `21a`–`21d`) | LINCS L1000 transcriptomic validation (HSF1 heat-shock signature). |
+| `21` | LINCS L1000 transcriptomic validation (HSF1 heat-shock signature). |
 
 ## Key methodological choices
 
